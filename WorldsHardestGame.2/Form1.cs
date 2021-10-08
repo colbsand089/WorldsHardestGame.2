@@ -32,7 +32,7 @@ namespace WorldsHardestGame._2
         bool upArrowDown;
         bool downArrowDown;
 
-        bool moveOk = true;
+        
 
         
        
