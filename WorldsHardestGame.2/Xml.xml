@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+
+
+	<root>
+	<Level>
+	<Circle>
+	<x>170</x>
+	<y>100</y>
+	<size>7</size>
+	<speed>5</speed>
+	</Circle>
+	<Circle>
+	<x>200</x>
+	<y>290</y>
+	<size>7</size>
+	<speed>5</speed>
+	</Circle>
+	</Level>
+		
+	</root>
+

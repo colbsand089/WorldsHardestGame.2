@@ -32,9 +32,9 @@ namespace WorldsHardestGame._2
         bool upArrowDown;
         bool downArrowDown;
 
-        
-
-        
+        int playerScore = 0;
+        int level;
+        List<Circle> c = new List<Circle>();
        
         Circle hero;
 
@@ -106,9 +106,11 @@ namespace WorldsHardestGame._2
             {
                 gameTimer.Enabled = false;
                 winLoseLabel.Visible = true;
-                winLoseLabel.Text = "You Win!";
+                winLoseLabel.Text = "$level complete";
+                playerScore ++;
+                level++;
             }    
-
+            //Movement
             if (rightArrowDown == true)
             {
                 hero.Move("right");
